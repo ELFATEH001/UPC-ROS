@@ -1,0 +1,16 @@
+/home/aimane/data/colcon_ws1/install/my_first_pkg/lib/my_first_pkg/my_node
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/environment/path.sh
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/environment/path.dsv
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/local_setup.bash
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/local_setup.sh
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/local_setup.zsh
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/local_setup.dsv
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/package.dsv
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake
+/home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/package.xml
