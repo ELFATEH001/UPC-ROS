@@ -210,6 +210,19 @@ my_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_node.dir/build.make CMakeFiles/my_node.dir/build
 .PHONY : my_node/fast
 
+#=============================================================================
+# Target rules for targets named my_nodeLoop
+
+# Build rule for target.
+my_nodeLoop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_nodeLoop
+.PHONY : my_nodeLoop
+
+# fast build rule for target.
+my_nodeLoop/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_nodeLoop.dir/build.make CMakeFiles/my_nodeLoop.dir/build
+.PHONY : my_nodeLoop/fast
+
 src/my_node.o: src/my_node.cpp.o
 .PHONY : src/my_node.o
 
@@ -234,6 +247,30 @@ src/my_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_node.dir/build.make CMakeFiles/my_node.dir/src/my_node.cpp.s
 .PHONY : src/my_node.cpp.s
 
+src/my_nodeLoop.o: src/my_nodeLoop.cpp.o
+.PHONY : src/my_nodeLoop.o
+
+# target to build an object file
+src/my_nodeLoop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_nodeLoop.dir/build.make CMakeFiles/my_nodeLoop.dir/src/my_nodeLoop.cpp.o
+.PHONY : src/my_nodeLoop.cpp.o
+
+src/my_nodeLoop.i: src/my_nodeLoop.cpp.i
+.PHONY : src/my_nodeLoop.i
+
+# target to preprocess a source file
+src/my_nodeLoop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_nodeLoop.dir/build.make CMakeFiles/my_nodeLoop.dir/src/my_nodeLoop.cpp.i
+.PHONY : src/my_nodeLoop.cpp.i
+
+src/my_nodeLoop.s: src/my_nodeLoop.cpp.s
+.PHONY : src/my_nodeLoop.s
+
+# target to generate assembly for a file
+src/my_nodeLoop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_nodeLoop.dir/build.make CMakeFiles/my_nodeLoop.dir/src/my_nodeLoop.cpp.s
+.PHONY : src/my_nodeLoop.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... my_first_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... my_node"
+	@echo "... my_nodeLoop"
 	@echo "... src/my_node.o"
 	@echo "... src/my_node.i"
 	@echo "... src/my_node.s"
+	@echo "... src/my_nodeLoop.o"
+	@echo "... src/my_nodeLoop.i"
+	@echo "... src/my_nodeLoop.s"
 .PHONY : help
 
 

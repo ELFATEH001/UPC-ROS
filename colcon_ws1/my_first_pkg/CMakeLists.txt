@@ -14,9 +14,12 @@ set(dependencies
 )
 add_executable(my_node src/my_node.cpp)
 ament_target_dependencies(my_node ${dependencies})
+add_executable(my_nodeLoop src/my_nodeLoop.cpp)
+ament_target_dependencies(my_nodeLoop ${dependencies})
 
 install(TARGETS
   my_node
+  my_nodeLoop
   DESTINATION lib/${PROJECT_NAME}
 )
 

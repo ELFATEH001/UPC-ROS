@@ -1,6 +1,7 @@
 /home/aimane/data/colcon_ws1/build/my_first_pkg/CMakeFiles/uninstall.dir
 /home/aimane/data/colcon_ws1/build/my_first_pkg/CMakeFiles/my_first_pkg_uninstall.dir
 /home/aimane/data/colcon_ws1/build/my_first_pkg/CMakeFiles/my_node.dir
+/home/aimane/data/colcon_ws1/build/my_first_pkg/CMakeFiles/my_nodeLoop.dir
 /home/aimane/data/colcon_ws1/build/my_first_pkg/CMakeFiles/test.dir
 /home/aimane/data/colcon_ws1/build/my_first_pkg/CMakeFiles/edit_cache.dir
 /home/aimane/data/colcon_ws1/build/my_first_pkg/CMakeFiles/rebuild_cache.dir

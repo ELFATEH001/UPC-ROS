@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-071388b643ad12bd4a1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pubsub_custom",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_class-ee93db4c266eb58d31ce.json",
+					"name" : "publisher_class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubsub_custom_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubsub_custom_uninstall-217a10507e353e356c64.json",
+					"name" : "pubsub_custom_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriber_class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriber_class-6e972ada39fc6836ed68.json",
+					"name" : "subscriber_class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-76e105bfe8c09a846e67.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aimane/data/colcon_ws2/build/pubsub_custom",
+		"source" : "/home/aimane/data/colcon_ws2/src/pubsub_custom"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

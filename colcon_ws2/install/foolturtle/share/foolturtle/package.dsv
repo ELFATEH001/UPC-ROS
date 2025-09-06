@@ -1,0 +1,8 @@
+source;share/foolturtle/hook/cmake_prefix_path.ps1
+source;share/foolturtle/hook/cmake_prefix_path.dsv
+source;share/foolturtle/hook/cmake_prefix_path.sh
+source;share/foolturtle/local_setup.bash
+source;share/foolturtle/local_setup.dsv
+source;share/foolturtle/local_setup.ps1
+source;share/foolturtle/local_setup.sh
+source;share/foolturtle/local_setup.zsh

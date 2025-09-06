@@ -1,0 +1,4 @@
+Invoking command in '/home/aimane/data/colcon_ws2/build/foolturtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/data/colcon_ws2/build/foolturtle -- -j3 -l3
+Invoked command in '/home/aimane/data/colcon_ws2/build/foolturtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/data/colcon_ws2/build/foolturtle -- -j3 -l3
+Invoking command in '/home/aimane/data/colcon_ws2/build/foolturtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aimane/data/colcon_ws2/build/foolturtle
+Invoked command in '/home/aimane/data/colcon_ws2/build/foolturtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aimane/data/colcon_ws2/build/foolturtle

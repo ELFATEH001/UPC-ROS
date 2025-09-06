@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000824] (my_first_pkg) JobQueued: {'identifier': 'my_first_pkg', 'dependencies': OrderedDict()}
+[0.000878] (my_first_pkg) JobStarted: {'identifier': 'my_first_pkg'}
+[0.012415] (my_first_pkg) JobProgress: {'identifier': 'my_first_pkg', 'progress': 'cmake'}
+[0.018846] (my_first_pkg) JobProgress: {'identifier': 'my_first_pkg', 'progress': 'build'}
+[0.019163] (my_first_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aimane/data/colcon_ws1/build/my_first_pkg', '--', '-j3', '-l3'], 'cwd': '/home/aimane/data/colcon_ws1/build/my_first_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'aimane'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1513'), ('SYSTEMD_EXEC_PID', '1682'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25706'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aimane/data/colcon_ws1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aimane'), ('JOURNAL_STREAM', '8:11838'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aimane'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/A-Scale-Labs:@/tmp/.ICE-unix/1652,unix/A-Scale-Labs:/tmp/.ICE-unix/1652'), ('INVOCATION_ID', 'e91cea2f2b934a5c9c253396e9aef6f8'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UVU5B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aimane/data/colcon_ws1/install/my_first_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:64f45976-554b-4346-b62e-ce5edc52a6ac'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aimane/data/colcon_ws1/build/my_first_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aimane/data/colcon_ws1/install/my_first_pkg:/opt/ros/humble')]), 'shell': False}
+[0.055069] (my_first_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099905] (-) TimerEvent: {}
+[0.200309] (-) TimerEvent: {}
+[0.261894] (my_first_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.305028] (-) TimerEvent: {}
+[0.315811] (my_first_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.321589] (my_first_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.335363] (my_first_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.353934] (my_first_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.379761] (my_first_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.407637] (-) TimerEvent: {}
+[0.451017] (my_first_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.453370] (my_first_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.508053] (-) TimerEvent: {}
+[0.610613] (-) TimerEvent: {}
+[0.625882] (my_first_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.712691] (-) TimerEvent: {}
+[0.747634] (my_first_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.814587] (-) TimerEvent: {}
+[0.855939] (my_first_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.856146] (my_first_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.856305] (my_first_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.856454] (my_first_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.856943] (my_first_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.857065] (my_first_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.857620] (my_first_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.860333] (my_first_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.876867] (my_first_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.886569] (my_first_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/aimane/data/colcon_ws1/build/my_first_pkg\n'}
+[0.915039] (-) TimerEvent: {}
+[0.921331] (my_first_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_node\x1b[0m\n'}
+[0.933444] (my_first_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/my_nodeLoop.dir/src/my_nodeLoop.cpp.o\x1b[0m\n'}
+[0.948865] (my_first_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[1.015224] (-) TimerEvent: {}
+[1.118071] (-) TimerEvent: {}
+[1.219577] (-) TimerEvent: {}
+[1.320134] (-) TimerEvent: {}
+[1.420818] (-) TimerEvent: {}
+[1.522172] (-) TimerEvent: {}
+[1.622799] (-) TimerEvent: {}
+[1.725196] (-) TimerEvent: {}
+[1.825782] (-) TimerEvent: {}
+[1.927281] (-) TimerEvent: {}
+[2.027826] (-) TimerEvent: {}
+[2.130305] (-) TimerEvent: {}
+[2.230910] (-) TimerEvent: {}
+[2.332332] (-) TimerEvent: {}
+[2.434811] (-) TimerEvent: {}
+[2.535432] (-) TimerEvent: {}
+[2.636037] (-) TimerEvent: {}
+[2.736658] (-) TimerEvent: {}
+[2.837958] (-) TimerEvent: {}
+[2.940443] (-) TimerEvent: {}
+[3.041004] (-) TimerEvent: {}
+[3.142495] (-) TimerEvent: {}
+[3.243135] (-) TimerEvent: {}
+[3.343760] (-) TimerEvent: {}
+[3.446058] (-) TimerEvent: {}
+[3.546609] (-) TimerEvent: {}
+[3.647320] (-) TimerEvent: {}
+[3.748760] (-) TimerEvent: {}
+[3.850251] (-) TimerEvent: {}
+[3.951066] (-) TimerEvent: {}
+[4.054242] (-) TimerEvent: {}
+[4.154934] (-) TimerEvent: {}
+[4.256327] (-) TimerEvent: {}
+[4.357009] (-) TimerEvent: {}
+[4.457792] (-) TimerEvent: {}
+[4.560255] (-) TimerEvent: {}
+[4.661013] (-) TimerEvent: {}
+[4.764315] (-) TimerEvent: {}
+[4.865424] (-) TimerEvent: {}
+[4.967176] (-) TimerEvent: {}
+[5.068956] (-) TimerEvent: {}
+[5.169736] (-) TimerEvent: {}
+[5.270527] (-) TimerEvent: {}
+[5.371002] (-) TimerEvent: {}
+[5.471556] (-) TimerEvent: {}
+[5.572173] (-) TimerEvent: {}
+[5.648861] (my_first_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable my_node\x1b[0m\n'}
+[5.673662] (-) TimerEvent: {}
+[5.710967] (my_first_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_nodeLoop\x1b[0m\n'}
+[5.773867] (-) TimerEvent: {}
+[5.875526] (-) TimerEvent: {}
+[5.879426] (my_first_pkg) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[5.920262] (my_first_pkg) StdoutLine: {'line': b'[100%] Built target my_nodeLoop\n'}
+[5.941725] (my_first_pkg) CommandEnded: {'returncode': 0}
+[5.943295] (my_first_pkg) JobProgress: {'identifier': 'my_first_pkg', 'progress': 'install'}
+[5.955832] (my_first_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aimane/data/colcon_ws1/build/my_first_pkg'], 'cwd': '/home/aimane/data/colcon_ws1/build/my_first_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'aimane'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1513'), ('SYSTEMD_EXEC_PID', '1682'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25706'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aimane/data/colcon_ws1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aimane'), ('JOURNAL_STREAM', '8:11838'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aimane'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/A-Scale-Labs:@/tmp/.ICE-unix/1652,unix/A-Scale-Labs:/tmp/.ICE-unix/1652'), ('INVOCATION_ID', 'e91cea2f2b934a5c9c253396e9aef6f8'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UVU5B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aimane/data/colcon_ws1/install/my_first_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:64f45976-554b-4346-b62e-ce5edc52a6ac'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aimane/data/colcon_ws1/build/my_first_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aimane/data/colcon_ws1/install/my_first_pkg:/opt/ros/humble')]), 'shell': False}
+[5.966521] (my_first_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.966770] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/aimane/data/colcon_ws1/install/my_first_pkg/lib/my_first_pkg/my_node\n'}
+[5.969037] (my_first_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/colcon_ws1/install/my_first_pkg/lib/my_first_pkg/my_node" to ""\n'}
+[5.969355] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/aimane/data/colcon_ws1/install/my_first_pkg/lib/my_first_pkg/my_nodeLoop\n'}
+[5.969640] (my_first_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/colcon_ws1/install/my_first_pkg/lib/my_first_pkg/my_nodeLoop" to ""\n'}
+[5.969911] (my_first_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg\n'}
+[5.970036] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg\n'}
+[5.970163] (my_first_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh\n'}
+[5.970373] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv\n'}
+[5.970497] (my_first_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/environment/path.sh\n'}
+[5.970609] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/environment/path.dsv\n'}
+[5.970723] (my_first_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/local_setup.bash\n'}
+[5.970843] (my_first_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/local_setup.sh\n'}
+[5.970971] (my_first_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/local_setup.zsh\n'}
+[5.971128] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/local_setup.dsv\n'}
+[5.971452] (my_first_pkg) StdoutLine: {'line': b'-- Installing: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/package.dsv\n'}
+[5.971634] (my_first_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg\n'}
+[5.971784] (my_first_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake\n'}
+[5.971969] (my_first_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake\n'}
+[5.972098] (my_first_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/package.xml\n'}
+[5.974863] (my_first_pkg) CommandEnded: {'returncode': 0}
+[5.976227] (-) TimerEvent: {}
+[6.010895] (my_first_pkg) JobEnded: {'identifier': 'my_first_pkg', 'rc': 0}
+[6.012052] (-) EventReactorShutdown: {}

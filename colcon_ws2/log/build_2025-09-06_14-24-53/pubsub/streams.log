@@ -1,0 +1,87 @@
+[0.033s] Invoking command in '/home/aimane/data/colcon_ws2/build/pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aimane/data/colcon_ws2/src/pubsub -DCMAKE_INSTALL_PREFIX=/home/aimane/data/colcon_ws2/install/pubsub
+[0.141s] -- The C compiler identification is GNU 11.4.0
+[0.247s] -- The CXX compiler identification is GNU 11.4.0
+[0.257s] -- Detecting C compiler ABI info
+[0.359s] -- Detecting C compiler ABI info - done
+[0.381s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.381s] -- Detecting C compile features
+[0.383s] -- Detecting C compile features - done
+[0.388s] -- Detecting CXX compiler ABI info
+[0.524s] -- Detecting CXX compiler ABI info - done
+[0.540s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.541s] -- Detecting CXX compile features
+[0.541s] -- Detecting CXX compile features - done
+[0.545s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.783s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.960s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.037s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.046s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.061s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.085s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.118s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.208s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.212s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.358s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.401s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.478s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.491s] -- Looking for pthread.h
+[1.602s] -- Looking for pthread.h - found
+[1.602s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.719s] -- Found Threads: TRUE  
+[1.858s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.982s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.983s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.984s] -- Configured cppcheck include dirs: 
+[1.985s] -- Configured cppcheck exclude dirs and/or files: 
+[1.986s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.986s] -- Configured cpplint exclude dirs and/or files: 
+[1.987s] -- Added test 'lint_cmake' to check CMake code style
+[1.989s] -- Added test 'uncrustify' to check C / C++ code style
+[1.989s] -- Configured uncrustify additional arguments: 
+[1.990s] -- Added test 'xmllint' to check XML markup files
+[1.993s] -- Configuring done
+[2.025s] -- Generating done
+[2.046s] -- Build files have been written to: /home/aimane/data/colcon_ws2/build/pubsub
+[2.067s] Invoked command in '/home/aimane/data/colcon_ws2/build/pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aimane/data/colcon_ws2/src/pubsub -DCMAKE_INSTALL_PREFIX=/home/aimane/data/colcon_ws2/install/pubsub
+[2.069s] Invoking command in '/home/aimane/data/colcon_ws2/build/pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/data/colcon_ws2/build/pubsub -- -j3 -l3
+[2.147s] [ 12%] [32mBuilding CXX object CMakeFiles/publisher_class.dir/src/publisher_class.cpp.o[0m
+[2.153s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_class.dir/src/subscriber_class.cpp.o[0m
+[2.159s] [ 37%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[16.042s] [ 50%] [32m[1mLinking CXX executable publisher_class[0m
+[16.049s] [ 62%] [32m[1mLinking CXX executable publisher[0m
+[16.442s] [ 62%] Built target publisher_class
+[16.495s] [ 75%] [32mBuilding CXX object CMakeFiles/executors.dir/src/executors.cpp.o[0m
+[16.501s] [ 75%] Built target publisher
+[24.431s] [ 87%] [32m[1mLinking CXX executable subscriber_class[0m
+[25.603s] [ 87%] Built target subscriber_class
+[34.415s] [100%] [32m[1mLinking CXX executable executors[0m
+[35.232s] [100%] Built target executors
+[35.249s] Invoked command in '/home/aimane/data/colcon_ws2/build/pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/data/colcon_ws2/build/pubsub -- -j3 -l3
+[35.254s] Invoking command in '/home/aimane/data/colcon_ws2/build/pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aimane/data/colcon_ws2/build/pubsub
+[35.273s] -- Install configuration: ""
+[35.273s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/lib/pubsub/publisher
+[35.275s] -- Set runtime path of "/home/aimane/data/colcon_ws2/install/pubsub/lib/pubsub/publisher" to ""
+[35.275s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/lib/pubsub/publisher_class
+[35.277s] -- Set runtime path of "/home/aimane/data/colcon_ws2/install/pubsub/lib/pubsub/publisher_class" to ""
+[35.277s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/lib/pubsub/subscriber_class
+[35.281s] -- Set runtime path of "/home/aimane/data/colcon_ws2/install/pubsub/lib/pubsub/subscriber_class" to ""
+[35.281s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/lib/pubsub/executors
+[35.284s] -- Set runtime path of "/home/aimane/data/colcon_ws2/install/pubsub/lib/pubsub/executors" to ""
+[35.286s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/ament_index/resource_index/package_run_dependencies/pubsub
+[35.287s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/ament_index/resource_index/parent_prefix_path/pubsub
+[35.287s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/pubsub/environment/ament_prefix_path.sh
+[35.287s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/pubsub/environment/ament_prefix_path.dsv
+[35.287s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/pubsub/environment/path.sh
+[35.288s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/pubsub/environment/path.dsv
+[35.288s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/pubsub/local_setup.bash
+[35.291s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/pubsub/local_setup.sh
+[35.293s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/pubsub/local_setup.zsh
+[35.293s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/pubsub/local_setup.dsv
+[35.294s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/pubsub/package.dsv
+[35.294s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/ament_index/resource_index/packages/pubsub
+[35.294s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.295s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/pubsub/cmake/pubsubConfig.cmake
+[35.295s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/pubsub/cmake/pubsubConfig-version.cmake
+[35.296s] -- Installing: /home/aimane/data/colcon_ws2/install/pubsub/share/pubsub/package.xml
+[35.296s] Invoked command in '/home/aimane/data/colcon_ws2/build/pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aimane/data/colcon_ws2/build/pubsub

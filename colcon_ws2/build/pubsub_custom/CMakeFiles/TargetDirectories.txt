@@ -1,0 +1,11 @@
+/home/aimane/data/colcon_ws2/build/pubsub_custom/CMakeFiles/uninstall.dir
+/home/aimane/data/colcon_ws2/build/pubsub_custom/CMakeFiles/pubsub_custom_uninstall.dir
+/home/aimane/data/colcon_ws2/build/pubsub_custom/CMakeFiles/publisher_class.dir
+/home/aimane/data/colcon_ws2/build/pubsub_custom/CMakeFiles/subscriber_class.dir
+/home/aimane/data/colcon_ws2/build/pubsub_custom/CMakeFiles/test.dir
+/home/aimane/data/colcon_ws2/build/pubsub_custom/CMakeFiles/edit_cache.dir
+/home/aimane/data/colcon_ws2/build/pubsub_custom/CMakeFiles/rebuild_cache.dir
+/home/aimane/data/colcon_ws2/build/pubsub_custom/CMakeFiles/list_install_components.dir
+/home/aimane/data/colcon_ws2/build/pubsub_custom/CMakeFiles/install.dir
+/home/aimane/data/colcon_ws2/build/pubsub_custom/CMakeFiles/install/local.dir
+/home/aimane/data/colcon_ws2/build/pubsub_custom/CMakeFiles/install/strip.dir

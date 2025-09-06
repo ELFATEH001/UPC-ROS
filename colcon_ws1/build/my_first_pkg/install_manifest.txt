@@ -1,4 +1,5 @@
 /home/aimane/data/colcon_ws1/install/my_first_pkg/lib/my_first_pkg/my_node
+/home/aimane/data/colcon_ws1/install/my_first_pkg/lib/my_first_pkg/my_nodeLoop
 /home/aimane/data/colcon_ws1/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
 /home/aimane/data/colcon_ws1/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
 /home/aimane/data/colcon_ws1/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh

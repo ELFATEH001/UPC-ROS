@@ -6,7 +6,9 @@ int main(int argc, char * argv[])
 
   auto node = rclcpp::Node::make_shared("my_node");
 
+  //RCLCPP_INFO(node->get_logger(), "Hello World !!!");
   RCLCPP_INFO(node->get_logger(), "Hello World !!!");
+
   rclcpp::spin(node);
   rclcpp::shutdown();
   return 0;
