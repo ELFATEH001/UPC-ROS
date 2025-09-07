@@ -223,6 +223,19 @@ subpose/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subpose.dir/build.make CMakeFiles/subpose.dir/build
 .PHONY : subpose/fast
 
+#=============================================================================
+# Target rules for targets named pubvelsafe
+
+# Build rule for target.
+pubvelsafe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pubvelsafe
+.PHONY : pubvelsafe
+
+# fast build rule for target.
+pubvelsafe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pubvelsafe.dir/build.make CMakeFiles/pubvelsafe.dir/build
+.PHONY : pubvelsafe/fast
+
 src/pubvel.o: src/pubvel.cpp.o
 .PHONY : src/pubvel.o
 
@@ -246,6 +259,30 @@ src/pubvel.s: src/pubvel.cpp.s
 src/pubvel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pubvel.dir/build.make CMakeFiles/pubvel.dir/src/pubvel.cpp.s
 .PHONY : src/pubvel.cpp.s
+
+src/pubvelsafe.o: src/pubvelsafe.cpp.o
+.PHONY : src/pubvelsafe.o
+
+# target to build an object file
+src/pubvelsafe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pubvelsafe.dir/build.make CMakeFiles/pubvelsafe.dir/src/pubvelsafe.cpp.o
+.PHONY : src/pubvelsafe.cpp.o
+
+src/pubvelsafe.i: src/pubvelsafe.cpp.i
+.PHONY : src/pubvelsafe.i
+
+# target to preprocess a source file
+src/pubvelsafe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pubvelsafe.dir/build.make CMakeFiles/pubvelsafe.dir/src/pubvelsafe.cpp.i
+.PHONY : src/pubvelsafe.cpp.i
+
+src/pubvelsafe.s: src/pubvelsafe.cpp.s
+.PHONY : src/pubvelsafe.s
+
+# target to generate assembly for a file
+src/pubvelsafe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pubvelsafe.dir/build.make CMakeFiles/pubvelsafe.dir/src/pubvelsafe.cpp.s
+.PHONY : src/pubvelsafe.cpp.s
 
 src/subpose.o: src/subpose.cpp.o
 .PHONY : src/subpose.o
@@ -287,10 +324,14 @@ help:
 	@echo "... foolturtle_uninstall"
 	@echo "... uninstall"
 	@echo "... pubvel"
+	@echo "... pubvelsafe"
 	@echo "... subpose"
 	@echo "... src/pubvel.o"
 	@echo "... src/pubvel.i"
 	@echo "... src/pubvel.s"
+	@echo "... src/pubvelsafe.o"
+	@echo "... src/pubvelsafe.i"
+	@echo "... src/pubvelsafe.s"
 	@echo "... src/subpose.o"
 	@echo "... src/subpose.i"
 	@echo "... src/subpose.s"

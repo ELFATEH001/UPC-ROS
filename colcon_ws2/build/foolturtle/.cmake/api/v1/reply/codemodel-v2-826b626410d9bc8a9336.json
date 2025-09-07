@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-44b9f7584fe89000eb97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "foolturtle",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "foolturtle_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-foolturtle_uninstall-d3f3013c3514c7adef0d.json",
+					"name" : "foolturtle_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubvel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubvel-9c862f9813867bcd3091.json",
+					"name" : "pubvel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pubvelsafe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pubvelsafe-3423b0207819d49f4081.json",
+					"name" : "pubvelsafe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subpose::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subpose-5b1dcc14b6028f32b3f3.json",
+					"name" : "subpose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f65210b96ade1f4fe7b1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aimane/data/colcon_ws2/build/foolturtle",
+		"source" : "/home/aimane/data/colcon_ws2/src/foolturtle"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

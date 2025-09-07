@@ -1,5 +1,6 @@
 /home/aimane/data/colcon_ws2/install/foolturtle/lib/foolturtle/pubvel
 /home/aimane/data/colcon_ws2/install/foolturtle/lib/foolturtle/subpose
+/home/aimane/data/colcon_ws2/install/foolturtle/lib/foolturtle/pubvelsafe
 /home/aimane/data/colcon_ws2/install/foolturtle/share/ament_index/resource_index/package_run_dependencies/foolturtle
 /home/aimane/data/colcon_ws2/install/foolturtle/share/ament_index/resource_index/parent_prefix_path/foolturtle
 /home/aimane/data/colcon_ws2/install/foolturtle/share/foolturtle/environment/ament_prefix_path.sh

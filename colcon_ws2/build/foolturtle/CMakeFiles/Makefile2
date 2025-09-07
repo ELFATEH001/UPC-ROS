@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/aimane/data/colcon_ws2/build/foolturtle
 # The main recursive "all" target.
 all: CMakeFiles/pubvel.dir/all
 all: CMakeFiles/subpose.dir/all
+all: CMakeFiles/pubvelsafe.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/foolturtle_uninstall.dir/clean
 clean: CMakeFiles/pubvel.dir/clean
 clean: CMakeFiles/subpose.dir/clean
+clean: CMakeFiles/pubvelsafe.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -163,7 +165,7 @@ CMakeFiles/pubvel.dir/clean:
 CMakeFiles/subpose.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subpose.dir/build.make CMakeFiles/subpose.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subpose.dir/build.make CMakeFiles/subpose.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aimane/data/colcon_ws2/build/foolturtle/CMakeFiles --progress-num=3,4 "Built target subpose"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aimane/data/colcon_ws2/build/foolturtle/CMakeFiles --progress-num=5,6 "Built target subpose"
 .PHONY : CMakeFiles/subpose.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +183,32 @@ subpose: CMakeFiles/subpose.dir/rule
 CMakeFiles/subpose.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subpose.dir/build.make CMakeFiles/subpose.dir/clean
 .PHONY : CMakeFiles/subpose.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pubvelsafe.dir
+
+# All Build rule for target.
+CMakeFiles/pubvelsafe.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pubvelsafe.dir/build.make CMakeFiles/pubvelsafe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pubvelsafe.dir/build.make CMakeFiles/pubvelsafe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aimane/data/colcon_ws2/build/foolturtle/CMakeFiles --progress-num=3,4 "Built target pubvelsafe"
+.PHONY : CMakeFiles/pubvelsafe.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pubvelsafe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aimane/data/colcon_ws2/build/foolturtle/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pubvelsafe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aimane/data/colcon_ws2/build/foolturtle/CMakeFiles 0
+.PHONY : CMakeFiles/pubvelsafe.dir/rule
+
+# Convenience name for target.
+pubvelsafe: CMakeFiles/pubvelsafe.dir/rule
+.PHONY : pubvelsafe
+
+# clean rule for target.
+CMakeFiles/pubvelsafe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pubvelsafe.dir/build.make CMakeFiles/pubvelsafe.dir/clean
+.PHONY : CMakeFiles/pubvelsafe.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

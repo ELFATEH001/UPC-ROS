@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.001061] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.001116] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.001157] (-) JobUnselected: {'identifier': 'pubsub_custom'}
+[0.001197] (foolturtle) JobQueued: {'identifier': 'foolturtle', 'dependencies': OrderedDict()}
+[0.001236] (foolturtle) JobStarted: {'identifier': 'foolturtle'}
+[0.011918] (foolturtle) JobProgress: {'identifier': 'foolturtle', 'progress': 'cmake'}
+[0.012972] (foolturtle) JobProgress: {'identifier': 'foolturtle', 'progress': 'build'}
+[0.013034] (foolturtle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aimane/data/colcon_ws2/build/foolturtle', '--', '-j3', '-l3'], 'cwd': '/home/aimane/data/colcon_ws2/build/foolturtle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'aimane'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2318'), ('SYSTEMD_EXEC_PID', '2749'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8263'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aimane'), ('JOURNAL_STREAM', '8:19034'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aimane'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/A-Scale-Labs:@/tmp/.ICE-unix/2477,unix/A-Scale-Labs:/tmp/.ICE-unix/2477'), ('INVOCATION_ID', '9ca2235aab1142d1bb3e0d3bdaa6a43f'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VOE6B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8a9be422-a9fa-49e6-8e28-6e9a34718dce'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aimane/data/colcon_ws2/build/foolturtle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.056782] (foolturtle) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100382] (-) TimerEvent: {}
+[0.201874] (-) TimerEvent: {}
+[0.287813] (foolturtle) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.302052] (-) TimerEvent: {}
+[0.341631] (foolturtle) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.346695] (foolturtle) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.358157] (foolturtle) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.377948] (foolturtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.402612] (-) TimerEvent: {}
+[0.403541] (foolturtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.475687] (foolturtle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.476976] (foolturtle) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.502976] (-) TimerEvent: {}
+[0.603342] (-) TimerEvent: {}
+[0.649640] (foolturtle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.703483] (-) TimerEvent: {}
+[0.788530] (foolturtle) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.804547] (-) TimerEvent: {}
+[0.826590] (foolturtle) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.905023] (-) TimerEvent: {}
+[0.934834] (foolturtle) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.005172] (-) TimerEvent: {}
+[1.053572] (foolturtle) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.056703] (foolturtle) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.057898] (foolturtle) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.058043] (foolturtle) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.061364] (foolturtle) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.061528] (foolturtle) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.063395] (foolturtle) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.067977] (foolturtle) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.068431] (foolturtle) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.069269] (foolturtle) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.071265] (foolturtle) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.104376] (foolturtle) StdoutLine: {'line': b'-- Generating done\n'}
+[1.105448] (-) TimerEvent: {}
+[1.118620] (foolturtle) StdoutLine: {'line': b'-- Build files have been written to: /home/aimane/data/colcon_ws2/build/foolturtle\n'}
+[1.156652] (foolturtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pubvel\x1b[0m\n'}
+[1.160702] (foolturtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subpose\x1b[0m\n'}
+[1.181235] (foolturtle) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/pubvelsafe.dir/src/pubvelsafe.cpp.o\x1b[0m\n'}
+[1.199652] (foolturtle) StdoutLine: {'line': b'[ 50%] Built target pubvel\n'}
+[1.205588] (-) TimerEvent: {}
+[1.212130] (foolturtle) StdoutLine: {'line': b'[ 83%] Built target subpose\n'}
+[1.305800] (-) TimerEvent: {}
+[1.406162] (-) TimerEvent: {}
+[1.506464] (-) TimerEvent: {}
+[1.607060] (-) TimerEvent: {}
+[1.707293] (-) TimerEvent: {}
+[1.807679] (-) TimerEvent: {}
+[1.908692] (-) TimerEvent: {}
+[2.009034] (-) TimerEvent: {}
+[2.109323] (-) TimerEvent: {}
+[2.209666] (-) TimerEvent: {}
+[2.310037] (-) TimerEvent: {}
+[2.410530] (-) TimerEvent: {}
+[2.510972] (-) TimerEvent: {}
+[2.611436] (-) TimerEvent: {}
+[2.711923] (-) TimerEvent: {}
+[2.812597] (-) TimerEvent: {}
+[2.913126] (-) TimerEvent: {}
+[3.013657] (-) TimerEvent: {}
+[3.114135] (-) TimerEvent: {}
+[3.214460] (-) TimerEvent: {}
+[3.314953] (-) TimerEvent: {}
+[3.415818] (-) TimerEvent: {}
+[3.517604] (-) TimerEvent: {}
+[3.618364] (-) TimerEvent: {}
+[3.719295] (-) TimerEvent: {}
+[3.822995] (-) TimerEvent: {}
+[3.923557] (-) TimerEvent: {}
+[4.024251] (-) TimerEvent: {}
+[4.124637] (-) TimerEvent: {}
+[4.225109] (-) TimerEvent: {}
+[4.325531] (-) TimerEvent: {}
+[4.426131] (-) TimerEvent: {}
+[4.526644] (-) TimerEvent: {}
+[4.627150] (-) TimerEvent: {}
+[4.728005] (-) TimerEvent: {}
+[4.830657] (-) TimerEvent: {}
+[4.931600] (-) TimerEvent: {}
+[5.032235] (-) TimerEvent: {}
+[5.132870] (-) TimerEvent: {}
+[5.233590] (-) TimerEvent: {}
+[5.334112] (-) TimerEvent: {}
+[5.434875] (-) TimerEvent: {}
+[5.535252] (-) TimerEvent: {}
+[5.637612] (-) TimerEvent: {}
+[5.738088] (-) TimerEvent: {}
+[5.838557] (-) TimerEvent: {}
+[5.939323] (-) TimerEvent: {}
+[6.039879] (-) TimerEvent: {}
+[6.143385] (-) TimerEvent: {}
+[6.244639] (-) TimerEvent: {}
+[6.345382] (-) TimerEvent: {}
+[6.446069] (-) TimerEvent: {}
+[6.547043] (-) TimerEvent: {}
+[6.647943] (-) TimerEvent: {}
+[6.748862] (-) TimerEvent: {}
+[6.849592] (-) TimerEvent: {}
+[6.950554] (-) TimerEvent: {}
+[7.051538] (-) TimerEvent: {}
+[7.153572] (-) TimerEvent: {}
+[7.254350] (-) TimerEvent: {}
+[7.356610] (-) TimerEvent: {}
+[7.457360] (-) TimerEvent: {}
+[7.558041] (-) TimerEvent: {}
+[7.658636] (-) TimerEvent: {}
+[7.759256] (-) TimerEvent: {}
+[7.860236] (-) TimerEvent: {}
+[7.961144] (-) TimerEvent: {}
+[8.061905] (-) TimerEvent: {}
+[8.162508] (-) TimerEvent: {}
+[8.263198] (-) TimerEvent: {}
+[8.364400] (-) TimerEvent: {}
+[8.466375] (-) TimerEvent: {}
+[8.567262] (-) TimerEvent: {}
+[8.668099] (-) TimerEvent: {}
+[8.768829] (-) TimerEvent: {}
+[8.869579] (-) TimerEvent: {}
+[8.970364] (-) TimerEvent: {}
+[9.071252] (-) TimerEvent: {}
+[9.171947] (-) TimerEvent: {}
+[9.273620] (-) TimerEvent: {}
+[9.374645] (-) TimerEvent: {}
+[9.475507] (-) TimerEvent: {}
+[9.577058] (-) TimerEvent: {}
+[9.678074] (-) TimerEvent: {}
+[9.778526] (-) TimerEvent: {}
+[9.879124] (-) TimerEvent: {}
+[9.979648] (-) TimerEvent: {}
+[10.080678] (-) TimerEvent: {}
+[10.181204] (-) TimerEvent: {}
+[10.281976] (-) TimerEvent: {}
+[10.382755] (-) TimerEvent: {}
+[10.483565] (-) TimerEvent: {}
+[10.584391] (-) TimerEvent: {}
+[10.685546] (-) TimerEvent: {}
+[10.786255] (-) TimerEvent: {}
+[10.887488] (-) TimerEvent: {}
+[10.988254] (-) TimerEvent: {}
+[11.088948] (-) TimerEvent: {}
+[11.189616] (-) TimerEvent: {}
+[11.290602] (-) TimerEvent: {}
+[11.391220] (-) TimerEvent: {}
+[11.495535] (-) TimerEvent: {}
+[11.596308] (-) TimerEvent: {}
+[11.701495] (-) TimerEvent: {}
+[11.802499] (-) TimerEvent: {}
+[11.906664] (-) TimerEvent: {}
+[12.007642] (-) TimerEvent: {}
+[12.108375] (-) TimerEvent: {}
+[12.209115] (-) TimerEvent: {}
+[12.309905] (-) TimerEvent: {}
+[12.410650] (-) TimerEvent: {}
+[12.514566] (-) TimerEvent: {}
+[12.615336] (-) TimerEvent: {}
+[12.716355] (-) TimerEvent: {}
+[12.819795] (-) TimerEvent: {}
+[12.921296] (-) TimerEvent: {}
+[13.022731] (-) TimerEvent: {}
+[13.126943] (-) TimerEvent: {}
+[13.228011] (-) TimerEvent: {}
+[13.332046] (-) TimerEvent: {}
+[13.432801] (-) TimerEvent: {}
+[13.535928] (-) TimerEvent: {}
+[13.633387] (foolturtle) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pubvelsafe\x1b[0m\n'}
+[13.636372] (-) TimerEvent: {}
+[13.737966] (-) TimerEvent: {}
+[13.839186] (-) TimerEvent: {}
+[13.940762] (-) TimerEvent: {}
+[14.041351] (-) TimerEvent: {}
+[14.144617] (-) TimerEvent: {}
+[14.245904] (-) TimerEvent: {}
+[14.347518] (-) TimerEvent: {}
+[14.370194] (foolturtle) StdoutLine: {'line': b'[100%] Built target pubvelsafe\n'}
+[14.392310] (foolturtle) CommandEnded: {'returncode': 0}
+[14.392996] (foolturtle) JobProgress: {'identifier': 'foolturtle', 'progress': 'install'}
+[14.403603] (foolturtle) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aimane/data/colcon_ws2/build/foolturtle'], 'cwd': '/home/aimane/data/colcon_ws2/build/foolturtle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'aimane'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2318'), ('SYSTEMD_EXEC_PID', '2749'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8263'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aimane'), ('JOURNAL_STREAM', '8:19034'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aimane'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/A-Scale-Labs:@/tmp/.ICE-unix/2477,unix/A-Scale-Labs:/tmp/.ICE-unix/2477'), ('INVOCATION_ID', '9ca2235aab1142d1bb3e0d3bdaa6a43f'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VOE6B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8a9be422-a9fa-49e6-8e28-6e9a34718dce'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aimane/data/colcon_ws2/build/foolturtle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.412901] (foolturtle) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.414145] (foolturtle) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws2/install/foolturtle/lib/foolturtle/pubvel\n'}
+[14.414287] (foolturtle) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws2/install/foolturtle/lib/foolturtle/subpose\n'}
+[14.414437] (foolturtle) StdoutLine: {'line': b'-- Installing: /home/aimane/data/colcon_ws2/install/foolturtle/lib/foolturtle/pubvelsafe\n'}
+[14.417751] (foolturtle) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/colcon_ws2/install/foolturtle/lib/foolturtle/pubvelsafe" to ""\n'}
+[14.417905] (foolturtle) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws2/install/foolturtle/share/ament_index/resource_index/package_run_dependencies/foolturtle\n'}
+[14.419556] (foolturtle) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws2/install/foolturtle/share/ament_index/resource_index/parent_prefix_path/foolturtle\n'}
+[14.419711] (foolturtle) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws2/install/foolturtle/share/foolturtle/environment/ament_prefix_path.sh\n'}
+[14.419820] (foolturtle) StdoutLine: {'line': b'-- Installing: /home/aimane/data/colcon_ws2/install/foolturtle/share/foolturtle/environment/ament_prefix_path.dsv\n'}
+[14.419924] (foolturtle) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws2/install/foolturtle/share/foolturtle/environment/path.sh\n'}
+[14.420029] (foolturtle) StdoutLine: {'line': b'-- Installing: /home/aimane/data/colcon_ws2/install/foolturtle/share/foolturtle/environment/path.dsv\n'}
+[14.420143] (foolturtle) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws2/install/foolturtle/share/foolturtle/local_setup.bash\n'}
+[14.420246] (foolturtle) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws2/install/foolturtle/share/foolturtle/local_setup.sh\n'}
+[14.420346] (foolturtle) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws2/install/foolturtle/share/foolturtle/local_setup.zsh\n'}
+[14.420447] (foolturtle) StdoutLine: {'line': b'-- Installing: /home/aimane/data/colcon_ws2/install/foolturtle/share/foolturtle/local_setup.dsv\n'}
+[14.420597] (foolturtle) StdoutLine: {'line': b'-- Installing: /home/aimane/data/colcon_ws2/install/foolturtle/share/foolturtle/package.dsv\n'}
+[14.420727] (foolturtle) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws2/install/foolturtle/share/ament_index/resource_index/packages/foolturtle\n'}
+[14.420854] (foolturtle) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws2/install/foolturtle/share/foolturtle/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.420968] (foolturtle) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws2/install/foolturtle/share/foolturtle/cmake/foolturtleConfig.cmake\n'}
+[14.421080] (foolturtle) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws2/install/foolturtle/share/foolturtle/cmake/foolturtleConfig-version.cmake\n'}
+[14.421204] (foolturtle) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/colcon_ws2/install/foolturtle/share/foolturtle/package.xml\n'}
+[14.425042] (foolturtle) CommandEnded: {'returncode': 0}
+[14.448078] (-) TimerEvent: {}
+[14.452343] (foolturtle) JobEnded: {'identifier': 'foolturtle', 'rc': 0}
+[14.453161] (-) EventReactorShutdown: {}

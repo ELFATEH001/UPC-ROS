@@ -1,0 +1,33 @@
+[0.014s] Invoking command in '/home/aimane/data/colcon_ws3/build/pubsub_custom_param': AMENT_PREFIX_PATH=/home/aimane/data/colcon_ws3/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/data/colcon_ws3/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/data/colcon_ws3/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aimane/data/colcon_ws3/build/pubsub_custom_param -- -j3 -l3
+[0.110s] [ 50%] Built target subscriber_class
+[0.119s] [100%] Built target publisher_class
+[0.135s] Invoked command in '/home/aimane/data/colcon_ws3/build/pubsub_custom_param' returned '0': AMENT_PREFIX_PATH=/home/aimane/data/colcon_ws3/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/data/colcon_ws3/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/data/colcon_ws3/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aimane/data/colcon_ws3/build/pubsub_custom_param -- -j3 -l3
+[0.139s] Invoking command in '/home/aimane/data/colcon_ws3/build/pubsub_custom_param': AMENT_PREFIX_PATH=/home/aimane/data/colcon_ws3/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/data/colcon_ws3/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/data/colcon_ws3/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aimane/data/colcon_ws3/build/pubsub_custom_param
+[0.146s] -- Install configuration: ""
+[0.147s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/lib/pubsub_custom_param/publisher_class
+[0.147s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/lib/pubsub_custom_param/subscriber_class
+[0.148s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/launch
+[0.148s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_launch.py
+[0.148s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_includer_launch.py
+[0.148s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_paramfile_launch.py
+[0.149s] -- Installing: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_argument_launch.py
+[0.150s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_param_launch.py
+[0.150s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/config
+[0.150s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/config/params.yaml
+[0.154s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/ament_index/resource_index/package_run_dependencies/pubsub_custom_param
+[0.154s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/ament_index/resource_index/parent_prefix_path/pubsub_custom_param
+[0.154s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/environment/ament_prefix_path.sh
+[0.154s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/environment/ament_prefix_path.dsv
+[0.154s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/environment/path.sh
+[0.155s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/environment/path.dsv
+[0.155s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/local_setup.bash
+[0.155s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/local_setup.sh
+[0.155s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/local_setup.zsh
+[0.155s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/local_setup.dsv
+[0.155s] -- Installing: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/package.dsv
+[0.155s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/ament_index/resource_index/packages/pubsub_custom_param
+[0.155s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.156s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/cmake/pubsub_custom_paramConfig.cmake
+[0.156s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/cmake/pubsub_custom_paramConfig-version.cmake
+[0.156s] -- Up-to-date: /home/aimane/data/colcon_ws3/install/pubsub_custom_param/share/pubsub_custom_param/package.xml
+[0.158s] Invoked command in '/home/aimane/data/colcon_ws3/build/pubsub_custom_param' returned '0': AMENT_PREFIX_PATH=/home/aimane/data/colcon_ws3/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/data/colcon_ws3/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/data/colcon_ws3/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aimane/data/colcon_ws3/build/pubsub_custom_param
