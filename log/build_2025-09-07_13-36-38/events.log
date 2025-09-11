@@ -1,0 +1,633 @@
+[0.000000] (-) TimerEvent: {}
+[0.000643] (-) JobUnselected: {'identifier': 'aruco'}
+[0.000698] (-) JobUnselected: {'identifier': 'aruco_broadcaster'}
+[0.000737] (-) JobUnselected: {'identifier': 'aruco_msgs'}
+[0.001579] (-) JobUnselected: {'identifier': 'aruco_ros'}
+[0.001644] (-) JobUnselected: {'identifier': 'chesslab_setup2'}
+[0.001676] (-) JobUnselected: {'identifier': 'chesslab_setup2_interfaces'}
+[0.001705] (-) JobUnselected: {'identifier': 'demodoc'}
+[0.001735] (-) JobUnselected: {'identifier': 'description_intro'}
+[0.001764] (-) JobUnselected: {'identifier': 'foolturtle'}
+[0.001800] (-) JobUnselected: {'identifier': 'foolturtle'}
+[0.001834] (-) JobUnselected: {'identifier': 'foolturtle_server'}
+[0.001868] (-) JobUnselected: {'identifier': 'foolturtle_server_alone'}
+[0.001902] (-) JobUnselected: {'identifier': 'foolturtle_server_interfaces'}
+[0.001936] (-) JobUnselected: {'identifier': 'ignition_gazebo_sensors_tutorial'}
+[0.001971] (-) JobUnselected: {'identifier': 'ignition_ros2_srv_bridge'}
+[0.002006] (-) JobUnselected: {'identifier': 'kinenikros2'}
+[0.002040] (-) JobUnselected: {'identifier': 'learning_tf2'}
+[0.002075] (-) JobUnselected: {'identifier': 'my_action_tutorials_cpp'}
+[0.002109] (-) JobUnselected: {'identifier': 'my_action_tutorials_interfaces'}
+[0.002144] (-) JobUnselected: {'identifier': 'my_first_pkg'}
+[0.002180] (-) JobUnselected: {'identifier': 'pantilt_action_tutorials_cpp'}
+[0.002214] (-) JobUnselected: {'identifier': 'pantilt_action_tutorials_interfaces'}
+[0.002249] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.002283] (-) JobUnselected: {'identifier': 'pubsub_custom'}
+[0.002317] (-) JobUnselected: {'identifier': 'robotiq_85_description'}
+[0.002351] (-) JobUnselected: {'identifier': 'robotiq_85_driver'}
+[0.002385] (-) JobUnselected: {'identifier': 'robotiq_85_gripper'}
+[0.002419] (-) JobUnselected: {'identifier': 'robotiq_85_gripper_server'}
+[0.002453] (-) JobUnselected: {'identifier': 'robotiq_85_gz'}
+[0.002488] (-) JobUnselected: {'identifier': 'robotiq_85_msgs'}
+[0.002522] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.003344] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.003387] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.003421] (-) JobUnselected: {'identifier': 'rrbot_description'}
+[0.003455] (-) JobUnselected: {'identifier': 'rrbot_gazebo'}
+[0.003490] (-) JobUnselected: {'identifier': 'rrbot_grrbot_controlazebo'}
+[0.003558] (-) JobUnselected: {'identifier': 'rviz2_marker_demo'}
+[0.003601] (-) JobUnselected: {'identifier': 'simple_package'}
+[0.003635] (-) JobUnselected: {'identifier': 'tablesens'}
+[0.003669] (-) JobUnselected: {'identifier': 'test_hardware_package_ros2'}
+[0.003704] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.003738] (-) JobUnselected: {'identifier': 'urdf_tutorial'}
+[0.003777] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.003817] (pubsub_custom_param) JobQueued: {'identifier': 'pubsub_custom_param', 'dependencies': OrderedDict([('custom_interfaces', '/home/aimane/data/install/custom_interfaces')])}
+[0.003856] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.015626] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.015703] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/aimane/data/colcon_ws2/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/aimane/data/install/custom_interfaces'], 'cwd': '/home/aimane/data/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'aimane'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aimane/data/colcon_ws3/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/data/git-projects'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2318'), ('SYSTEMD_EXEC_PID', '2504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45214'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aimane/data/colcon_ws3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aimane'), ('JOURNAL_STREAM', '8:18615'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aimane'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/A-Scale-Labs:@/tmp/.ICE-unix/2477,unix/A-Scale-Labs:/tmp/.ICE-unix/2477'), ('INVOCATION_ID', 'b74c91a35ab544349d3f9fe276926730'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VOE6B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3d5bd173-b877-4a97-9164-cb0b3cc89ee6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aimane/data/build/custom_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aimane/data/colcon_ws3/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.099466] (-) TimerEvent: {}
+[0.128080] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199623] (-) TimerEvent: {}
+[0.235685] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.244203] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300302] (-) TimerEvent: {}
+[0.340770] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.360210] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.360682] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.361634] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.367108] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401848] (-) TimerEvent: {}
+[0.501320] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.502719] (-) TimerEvent: {}
+[0.524143] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.526276] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.526867] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.531269] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.603958] (-) TimerEvent: {}
+[0.704399] (-) TimerEvent: {}
+[0.802635] (custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.804585] (-) TimerEvent: {}
+[0.907375] (-) TimerEvent: {}
+[0.968641] (custom_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.007737] (-) TimerEvent: {}
+[1.071628] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.082259] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.103675] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.107882] (-) TimerEvent: {}
+[1.131751] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.177888] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.208097] (-) TimerEvent: {}
+[1.275805] (custom_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.280434] (custom_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.308219] (-) TimerEvent: {}
+[1.408630] (-) TimerEvent: {}
+[1.450627] (custom_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.494491] (custom_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.509142] (-) TimerEvent: {}
+[1.558571] (custom_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.574613] (custom_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.609591] (-) TimerEvent: {}
+[1.680632] (custom_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.681754] (custom_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.710136] (-) TimerEvent: {}
+[1.782794] (custom_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.785663] (custom_interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.810442] (-) TimerEvent: {}
+[1.911423] (-) TimerEvent: {}
+[1.930999] (custom_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.969459] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.011860] (-) TimerEvent: {}
+[2.114963] (-) TimerEvent: {}
+[2.215392] (-) TimerEvent: {}
+[2.317665] (-) TimerEvent: {}
+[2.418638] (-) TimerEvent: {}
+[2.513880] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.518775] (-) TimerEvent: {}
+[2.620643] (-) TimerEvent: {}
+[2.720948] (-) TimerEvent: {}
+[2.822783] (-) TimerEvent: {}
+[2.923593] (-) TimerEvent: {}
+[3.024229] (-) TimerEvent: {}
+[3.125677] (-) TimerEvent: {}
+[3.226961] (-) TimerEvent: {}
+[3.327442] (-) TimerEvent: {}
+[3.361610] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.427597] (-) TimerEvent: {}
+[3.528558] (-) TimerEvent: {}
+[3.631633] (-) TimerEvent: {}
+[3.684189] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.722810] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.723943] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.731686] (-) TimerEvent: {}
+[3.770251] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.771306] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.771473] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.771667] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.809649] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.832153] (-) TimerEvent: {}
+[3.931324] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.932656] (-) TimerEvent: {}
+[3.964043] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.965583] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.972382] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.033571] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.033762] (-) TimerEvent: {}
+[4.068599] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/aimane/data/build/custom_interfaces\n'}
+[4.096302] (custom_interfaces) CommandEnded: {'returncode': 0}
+[4.097386] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[4.097477] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aimane/data/build/custom_interfaces', '--', '-j3', '-l3'], 'cwd': '/home/aimane/data/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'aimane'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aimane/data/colcon_ws3/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/data/git-projects'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2318'), ('SYSTEMD_EXEC_PID', '2504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45214'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aimane/data/colcon_ws3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aimane'), ('JOURNAL_STREAM', '8:18615'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aimane'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/A-Scale-Labs:@/tmp/.ICE-unix/2477,unix/A-Scale-Labs:/tmp/.ICE-unix/2477'), ('INVOCATION_ID', 'b74c91a35ab544349d3f9fe276926730'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VOE6B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3d5bd173-b877-4a97-9164-cb0b3cc89ee6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aimane/data/build/custom_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aimane/data/colcon_ws3/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[4.133895] (-) TimerEvent: {}
+[4.153619] (custom_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.186599] (custom_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.228615] (custom_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[4.234644] (-) TimerEvent: {}
+[4.339479] (-) TimerEvent: {}
+[4.440270] (-) TimerEvent: {}
+[4.540608] (-) TimerEvent: {}
+[4.641372] (-) TimerEvent: {}
+[4.735165] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.735434] (custom_interfaces) StdoutLine: {'line': b'creating custom_interfaces.egg-info\n'}
+[4.735629] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[4.736756] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[4.736920] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[4.737059] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[4.741969] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[4.742170] (-) TimerEvent: {}
+[4.742365] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[4.768329] (custom_interfaces) StdoutLine: {'line': b'[  6%] Built target custom_interfaces__cpp\n'}
+[4.788775] (custom_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.789035] (custom_interfaces) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[4.802679] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.808794] (custom_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/my_message__functions.c.o\x1b[0m\n'}
+[4.842424] (-) TimerEvent: {}
+[4.882870] (custom_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.938583] (custom_interfaces) StdoutLine: {'line': b'[ 19%] Built target custom_interfaces__rosidl_generator_c\n'}
+[4.942684] (-) TimerEvent: {}
+[4.953754] (custom_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.044126] (-) TimerEvent: {}
+[5.144468] (-) TimerEvent: {}
+[5.245177] (-) TimerEvent: {}
+[5.260194] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/my_message__type_support.cpp.o\x1b[0m\n'}
+[5.332606] (custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/my_message__type_support.cpp.o\x1b[0m\n'}
+[5.345328] (-) TimerEvent: {}
+[5.446206] (-) TimerEvent: {}
+[5.448938] (custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/my_message__type_support.cpp.o\x1b[0m\n'}
+[5.546353] (-) TimerEvent: {}
+[5.649227] (-) TimerEvent: {}
+[5.712655] (custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.749358] (-) TimerEvent: {}
+[5.838900] (custom_interfaces) StdoutLine: {'line': b'[ 35%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[5.850317] (-) TimerEvent: {}
+[5.865961] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.950692] (-) TimerEvent: {}
+[6.051336] (-) TimerEvent: {}
+[6.153836] (-) TimerEvent: {}
+[6.191087] (custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.254337] (-) TimerEvent: {}
+[6.263692] (custom_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.354430] (-) TimerEvent: {}
+[6.361745] (custom_interfaces) StdoutLine: {'line': b'[ 45%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.389296] (custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.456587] (-) TimerEvent: {}
+[6.468607] (custom_interfaces) StdoutLine: {'line': b'[ 48%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.499990] (custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.557550] (-) TimerEvent: {}
+[6.658415] (-) TimerEvent: {}
+[6.724667] (custom_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/my_message__type_support_c.cpp.o\x1b[0m\n'}
+[6.759584] (-) TimerEvent: {}
+[6.860479] (-) TimerEvent: {}
+[6.960951] (-) TimerEvent: {}
+[7.061496] (-) TimerEvent: {}
+[7.106424] (custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/my_message__type_support.c.o\x1b[0m\n'}
+[7.124699] (custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/my_message__type_support.cpp.o\x1b[0m\n'}
+[7.161645] (-) TimerEvent: {}
+[7.169695] (custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.221663] (custom_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.264607] (-) TimerEvent: {}
+[7.278163] (custom_interfaces) StdoutLine: {'line': b'[ 67%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.294606] (custom_interfaces) StdoutLine: {'line': b'[ 67%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[7.365045] (-) TimerEvent: {}
+[7.465575] (-) TimerEvent: {}
+[7.502587] (custom_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.567593] (-) TimerEvent: {}
+[7.616294] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.641967] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces\n'}
+[7.667674] (-) TimerEvent: {}
+[7.669702] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.768694] (-) TimerEvent: {}
+[7.869891] (-) TimerEvent: {}
+[7.970605] (-) TimerEvent: {}
+[8.072015] (-) TimerEvent: {}
+[8.172853] (-) TimerEvent: {}
+[8.273171] (-) TimerEvent: {}
+[8.275633] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__py\n'}
+[8.303694] (custom_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_my_message_s.c.o\x1b[0m\n'}
+[8.374553] (-) TimerEvent: {}
+[8.458375] (custom_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[8.474974] (-) TimerEvent: {}
+[8.517261] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__rosidl_generator_py\n'}
+[8.545605] (custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.545832] (custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.547863] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.575410] (-) TimerEvent: {}
+[8.676492] (-) TimerEvent: {}
+[8.700696] (custom_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.706721] (custom_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.709663] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.765624] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.771694] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.774191] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.776578] (-) TimerEvent: {}
+[8.791219] (custom_interfaces) CommandEnded: {'returncode': 0}
+[8.791861] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[8.802203] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aimane/data/build/custom_interfaces'], 'cwd': '/home/aimane/data/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'aimane'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aimane/data/colcon_ws3/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/data/git-projects'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2318'), ('SYSTEMD_EXEC_PID', '2504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45214'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aimane/data/colcon_ws3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aimane'), ('JOURNAL_STREAM', '8:18615'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aimane'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/A-Scale-Labs:@/tmp/.ICE-unix/2477,unix/A-Scale-Labs:/tmp/.ICE-unix/2477'), ('INVOCATION_ID', 'b74c91a35ab544349d3f9fe276926730'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VOE6B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3d5bd173-b877-4a97-9164-cb0b3cc89ee6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aimane/data/build/custom_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aimane/data/colcon_ws3/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[8.814727] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.814922] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[8.815053] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[8.815233] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[8.815376] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/my_message.h\n'}
+[8.815542] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.815671] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[8.815787] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__functions.h\n'}
+[8.815905] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__functions.c\n'}
+[8.816020] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.h\n'}
+[8.816138] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__struct.h\n'}
+[8.816255] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[8.816371] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[8.816755] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[8.817601] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.817750] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[8.817873] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[8.817990] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.818108] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[8.818225] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_fastrtps_c.h\n'}
+[8.818342] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.818614] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.818799] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[8.820654] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[8.820773] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/my_message.hpp\n'}
+[8.820896] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.821023] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[8.821140] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__traits.hpp\n'}
+[8.821257] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.hpp\n'}
+[8.823615] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__struct.hpp\n'}
+[8.823704] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__builder.hpp\n'}
+[8.823904] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[8.824020] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[8.824118] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.824293] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[8.824395] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.824491] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[8.824640] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.824740] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.824836] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[8.824931] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[8.825026] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.825121] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[8.825317] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_introspection_c.h\n'}
+[8.825459] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.c\n'}
+[8.825794] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.826082] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.826228] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[8.826331] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.826428] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[8.826557] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[8.826672] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[8.826769] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.cpp\n'}
+[8.826965] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.827070] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.827199] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.827306] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.827403] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.827498] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[8.827598] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[8.827740] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[8.827839] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.827935] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.828031] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.828164] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.828263] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[8.828358] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[8.828456] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.828587] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.828689] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.828785] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.828881] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.828981] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg\n'}
+[8.829077] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_my_message_s.c\n'}
+[8.829226] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_my_message.py\n'}
+[8.829321] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py\n'}
+[8.829417] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[8.829512] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.876976] (-) TimerEvent: {}
+[8.877280] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[8.877444] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...\n"}
+[8.877595] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...\n"}
+[8.877707] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...\n"}
+[8.877805] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_my_message.py'...\n"}
+[8.884750] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.885168] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.885440] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.885937] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.886280] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.886761] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.886964] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[8.887394] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""\n'}
+[8.887628] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/msg/MyMessage.idl\n'}
+[8.887828] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/msg/MyMessage.msg\n'}
+[8.887990] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[8.888282] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[8.888469] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[8.888731] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.889447] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[8.889656] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[8.889770] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[8.889874] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[8.890025] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[8.890125] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[8.890251] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[8.890383] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[8.890689] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.890850] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.890984] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.891143] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.891300] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.891463] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.891610] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.891760] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.891921] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.892082] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.892240] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.892398] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.892574] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.892843] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.893011] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.893640] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.894833] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.894950] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.895014] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.895071] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.895125] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.895705] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.895820] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.895886] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.895942] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[8.896001] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[8.896146] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[8.898929] (custom_interfaces) CommandEnded: {'returncode': 0}
+[8.933255] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[8.935251] (pubsub_custom_param) JobStarted: {'identifier': 'pubsub_custom_param'}
+[8.948258] (pubsub_custom_param) JobProgress: {'identifier': 'pubsub_custom_param', 'progress': 'cmake'}
+[8.949711] (pubsub_custom_param) Command: {'cmd': ['/usr/bin/cmake', '/home/aimane/data/colcon_ws3/src/pubsub_custom_param', '-DCMAKE_INSTALL_PREFIX=/home/aimane/data/install/pubsub_custom_param'], 'cwd': '/home/aimane/data/build/pubsub_custom_param', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'aimane'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aimane/data/install/custom_interfaces/lib:/home/aimane/data/colcon_ws3/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/data/git-projects'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2318'), ('SYSTEMD_EXEC_PID', '2504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45214'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aimane/data/colcon_ws3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aimane'), ('JOURNAL_STREAM', '8:18615'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aimane'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/A-Scale-Labs:@/tmp/.ICE-unix/2477,unix/A-Scale-Labs:/tmp/.ICE-unix/2477'), ('INVOCATION_ID', 'b74c91a35ab544349d3f9fe276926730'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VOE6B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aimane/data/install/custom_interfaces:/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3d5bd173-b877-4a97-9164-cb0b3cc89ee6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aimane/data/build/pubsub_custom_param'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/aimane/data/colcon_ws3/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aimane/data/install/custom_interfaces:/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[8.978218] (-) TimerEvent: {}
+[9.070606] (pubsub_custom_param) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[9.078476] (-) TimerEvent: {}
+[9.170686] (pubsub_custom_param) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[9.178565] (-) TimerEvent: {}
+[9.185731] (pubsub_custom_param) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.279604] (-) TimerEvent: {}
+[9.279927] (pubsub_custom_param) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.299581] (pubsub_custom_param) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.300141] (pubsub_custom_param) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.301064] (pubsub_custom_param) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.309695] (pubsub_custom_param) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.381582] (-) TimerEvent: {}
+[9.443640] (pubsub_custom_param) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.462694] (pubsub_custom_param) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.466166] (pubsub_custom_param) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.466357] (pubsub_custom_param) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.468966] (pubsub_custom_param) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.482040] (-) TimerEvent: {}
+[9.582632] (-) TimerEvent: {}
+[9.683113] (-) TimerEvent: {}
+[9.732826] (pubsub_custom_param) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[9.783796] (-) TimerEvent: {}
+[9.884210] (-) TimerEvent: {}
+[9.887680] (pubsub_custom_param) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[9.968742] (pubsub_custom_param) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.980259] (pubsub_custom_param) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.984752] (-) TimerEvent: {}
+[10.010042] (pubsub_custom_param) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.037802] (pubsub_custom_param) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.070863] (pubsub_custom_param) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.087468] (-) TimerEvent: {}
+[10.162615] (pubsub_custom_param) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.167682] (pubsub_custom_param) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.187688] (-) TimerEvent: {}
+[10.288483] (-) TimerEvent: {}
+[10.301709] (pubsub_custom_param) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[10.350065] (pubsub_custom_param) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[10.388691] (-) TimerEvent: {}
+[10.416157] (pubsub_custom_param) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.431078] (pubsub_custom_param) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.490372] (-) TimerEvent: {}
+[10.539723] (pubsub_custom_param) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.539916] (pubsub_custom_param) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.590464] (-) TimerEvent: {}
+[10.643626] (pubsub_custom_param) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.644367] (pubsub_custom_param) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.690612] (-) TimerEvent: {}
+[10.769169] (pubsub_custom_param) StdoutLine: {'line': b'-- Found custom_interfaces: 0.0.0 (/home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake)\n'}
+[10.791168] (-) TimerEvent: {}
+[10.855634] (pubsub_custom_param) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.891561] (-) TimerEvent: {}
+[10.990627] (pubsub_custom_param) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.991947] (-) TimerEvent: {}
+[10.992157] (pubsub_custom_param) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.992441] (pubsub_custom_param) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[10.992562] (pubsub_custom_param) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.995641] (pubsub_custom_param) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.995823] (pubsub_custom_param) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.995933] (pubsub_custom_param) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.996497] (pubsub_custom_param) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.997439] (pubsub_custom_param) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[10.999355] (pubsub_custom_param) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.999494] (pubsub_custom_param) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.000470] (pubsub_custom_param) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.004669] (pubsub_custom_param) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.025629] (pubsub_custom_param) StdoutLine: {'line': b'-- Generating done\n'}
+[11.036016] (pubsub_custom_param) StdoutLine: {'line': b'-- Build files have been written to: /home/aimane/data/build/pubsub_custom_param\n'}
+[11.050528] (pubsub_custom_param) CommandEnded: {'returncode': 0}
+[11.053785] (pubsub_custom_param) JobProgress: {'identifier': 'pubsub_custom_param', 'progress': 'build'}
+[11.053933] (pubsub_custom_param) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aimane/data/build/pubsub_custom_param', '--', '-j3', '-l3'], 'cwd': '/home/aimane/data/build/pubsub_custom_param', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'aimane'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aimane/data/install/custom_interfaces/lib:/home/aimane/data/colcon_ws3/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/data/git-projects'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2318'), ('SYSTEMD_EXEC_PID', '2504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45214'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aimane/data/colcon_ws3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aimane'), ('JOURNAL_STREAM', '8:18615'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aimane'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/A-Scale-Labs:@/tmp/.ICE-unix/2477,unix/A-Scale-Labs:/tmp/.ICE-unix/2477'), ('INVOCATION_ID', 'b74c91a35ab544349d3f9fe276926730'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VOE6B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aimane/data/install/custom_interfaces:/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3d5bd173-b877-4a97-9164-cb0b3cc89ee6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aimane/data/build/pubsub_custom_param'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/aimane/data/colcon_ws3/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aimane/data/install/custom_interfaces:/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[11.092608] (-) TimerEvent: {}
+[11.125232] (pubsub_custom_param) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/publisher_class.dir/src/publisher_class.cpp.o\x1b[0m\n'}
+[11.132867] (pubsub_custom_param) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_class.dir/src/subscriber_class.cpp.o\x1b[0m\n'}
+[11.192733] (-) TimerEvent: {}
+[11.293191] (-) TimerEvent: {}
+[11.395108] (-) TimerEvent: {}
+[11.495594] (-) TimerEvent: {}
+[11.596003] (-) TimerEvent: {}
+[11.696653] (-) TimerEvent: {}
+[11.799180] (-) TimerEvent: {}
+[11.899575] (-) TimerEvent: {}
+[12.000225] (-) TimerEvent: {}
+[12.100870] (-) TimerEvent: {}
+[12.201303] (-) TimerEvent: {}
+[12.301843] (-) TimerEvent: {}
+[12.404359] (-) TimerEvent: {}
+[12.505051] (-) TimerEvent: {}
+[12.605448] (-) TimerEvent: {}
+[12.706255] (-) TimerEvent: {}
+[12.806774] (-) TimerEvent: {}
+[12.908181] (-) TimerEvent: {}
+[13.008587] (-) TimerEvent: {}
+[13.108994] (-) TimerEvent: {}
+[13.209499] (-) TimerEvent: {}
+[13.309886] (-) TimerEvent: {}
+[13.410413] (-) TimerEvent: {}
+[13.510862] (-) TimerEvent: {}
+[13.611438] (-) TimerEvent: {}
+[13.712430] (-) TimerEvent: {}
+[13.812759] (-) TimerEvent: {}
+[13.913438] (-) TimerEvent: {}
+[14.013812] (-) TimerEvent: {}
+[14.114363] (-) TimerEvent: {}
+[14.214992] (-) TimerEvent: {}
+[14.315735] (-) TimerEvent: {}
+[14.416077] (-) TimerEvent: {}
+[14.517043] (-) TimerEvent: {}
+[14.618870] (-) TimerEvent: {}
+[14.719312] (-) TimerEvent: {}
+[14.819656] (-) TimerEvent: {}
+[14.921238] (-) TimerEvent: {}
+[15.021617] (-) TimerEvent: {}
+[15.124621] (-) TimerEvent: {}
+[15.225371] (-) TimerEvent: {}
+[15.326384] (-) TimerEvent: {}
+[15.427420] (-) TimerEvent: {}
+[15.529161] (-) TimerEvent: {}
+[15.629582] (-) TimerEvent: {}
+[15.730049] (-) TimerEvent: {}
+[15.832044] (-) TimerEvent: {}
+[15.932266] (-) TimerEvent: {}
+[16.032616] (-) TimerEvent: {}
+[16.132992] (-) TimerEvent: {}
+[16.233367] (-) TimerEvent: {}
+[16.333860] (-) TimerEvent: {}
+[16.434209] (-) TimerEvent: {}
+[16.534546] (-) TimerEvent: {}
+[16.634976] (-) TimerEvent: {}
+[16.735938] (-) TimerEvent: {}
+[16.836388] (-) TimerEvent: {}
+[16.936813] (-) TimerEvent: {}
+[17.037368] (-) TimerEvent: {}
+[17.137734] (-) TimerEvent: {}
+[17.239604] (-) TimerEvent: {}
+[17.340063] (-) TimerEvent: {}
+[17.441284] (-) TimerEvent: {}
+[17.541588] (-) TimerEvent: {}
+[17.642148] (-) TimerEvent: {}
+[17.742587] (-) TimerEvent: {}
+[17.843111] (-) TimerEvent: {}
+[17.943747] (-) TimerEvent: {}
+[18.044575] (-) TimerEvent: {}
+[18.145318] (-) TimerEvent: {}
+[18.173149] (pubsub_custom_param) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher_class\x1b[0m\n'}
+[18.245770] (-) TimerEvent: {}
+[18.346097] (-) TimerEvent: {}
+[18.446648] (-) TimerEvent: {}
+[18.520118] (pubsub_custom_param) StdoutLine: {'line': b'[ 75%] Built target publisher_class\n'}
+[18.546953] (-) TimerEvent: {}
+[18.648538] (-) TimerEvent: {}
+[18.748998] (-) TimerEvent: {}
+[18.853317] (-) TimerEvent: {}
+[18.953610] (-) TimerEvent: {}
+[19.055736] (-) TimerEvent: {}
+[19.156110] (-) TimerEvent: {}
+[19.256376] (-) TimerEvent: {}
+[19.356998] (-) TimerEvent: {}
+[19.458835] (-) TimerEvent: {}
+[19.559277] (-) TimerEvent: {}
+[19.660053] (-) TimerEvent: {}
+[19.761001] (-) TimerEvent: {}
+[19.861264] (-) TimerEvent: {}
+[19.961849] (-) TimerEvent: {}
+[20.062335] (-) TimerEvent: {}
+[20.162624] (-) TimerEvent: {}
+[20.265635] (-) TimerEvent: {}
+[20.369465] (-) TimerEvent: {}
+[20.469945] (-) TimerEvent: {}
+[20.570561] (-) TimerEvent: {}
+[20.671162] (-) TimerEvent: {}
+[20.771723] (-) TimerEvent: {}
+[20.872222] (-) TimerEvent: {}
+[20.972742] (-) TimerEvent: {}
+[21.073190] (-) TimerEvent: {}
+[21.173681] (-) TimerEvent: {}
+[21.274289] (-) TimerEvent: {}
+[21.374853] (-) TimerEvent: {}
+[21.475677] (-) TimerEvent: {}
+[21.576010] (-) TimerEvent: {}
+[21.676498] (-) TimerEvent: {}
+[21.777123] (-) TimerEvent: {}
+[21.878037] (-) TimerEvent: {}
+[21.978614] (-) TimerEvent: {}
+[22.078864] (-) TimerEvent: {}
+[22.183547] (-) TimerEvent: {}
+[22.284109] (-) TimerEvent: {}
+[22.384679] (-) TimerEvent: {}
+[22.485034] (-) TimerEvent: {}
+[22.585487] (-) TimerEvent: {}
+[22.687003] (-) TimerEvent: {}
+[22.790488] (-) TimerEvent: {}
+[22.891429] (-) TimerEvent: {}
+[22.994818] (-) TimerEvent: {}
+[23.098002] (-) TimerEvent: {}
+[23.201400] (-) TimerEvent: {}
+[23.304010] (-) TimerEvent: {}
+[23.405992] (-) TimerEvent: {}
+[23.509865] (-) TimerEvent: {}
+[23.611690] (-) TimerEvent: {}
+[23.714205] (-) TimerEvent: {}
+[23.815132] (-) TimerEvent: {}
+[23.917186] (-) TimerEvent: {}
+[24.017694] (-) TimerEvent: {}
+[24.118333] (-) TimerEvent: {}
+[24.219715] (-) TimerEvent: {}
+[24.299442] (pubsub_custom_param) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber_class\x1b[0m\n'}
+[24.321212] (-) TimerEvent: {}
+[24.422115] (-) TimerEvent: {}
+[24.522976] (-) TimerEvent: {}
+[24.623867] (-) TimerEvent: {}
+[24.724356] (-) TimerEvent: {}
+[24.826802] (-) TimerEvent: {}
+[24.899643] (pubsub_custom_param) StdoutLine: {'line': b'[100%] Built target subscriber_class\n'}
+[24.922111] (pubsub_custom_param) CommandEnded: {'returncode': 0}
+[24.924231] (pubsub_custom_param) JobProgress: {'identifier': 'pubsub_custom_param', 'progress': 'install'}
+[24.924309] (pubsub_custom_param) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aimane/data/build/pubsub_custom_param'], 'cwd': '/home/aimane/data/build/pubsub_custom_param', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'aimane'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aimane/data/install/custom_interfaces/lib:/home/aimane/data/colcon_ws3/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aimane'), ('OLDPWD', '/home/aimane/data/git-projects'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2318'), ('SYSTEMD_EXEC_PID', '2504'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '45214'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aimane/data/colcon_ws3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aimane'), ('JOURNAL_STREAM', '8:18615'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aimane'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/A-Scale-Labs:@/tmp/.ICE-unix/2477,unix/A-Scale-Labs:/tmp/.ICE-unix/2477'), ('INVOCATION_ID', 'b74c91a35ab544349d3f9fe276926730'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VOE6B3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aimane/data/install/custom_interfaces:/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3d5bd173-b877-4a97-9164-cb0b3cc89ee6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aimane/data/build/pubsub_custom_param'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/aimane/data/colcon_ws3/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aimane/data/install/custom_interfaces:/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[24.927359] (-) TimerEvent: {}
+[24.934848] (pubsub_custom_param) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.935071] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/lib/pubsub_custom_param/publisher_class\n'}
+[24.935584] (pubsub_custom_param) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/install/pubsub_custom_param/lib/pubsub_custom_param/publisher_class" to ""\n'}
+[24.935801] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/lib/pubsub_custom_param/subscriber_class\n'}
+[24.942587] (pubsub_custom_param) StdoutLine: {'line': b'-- Set runtime path of "/home/aimane/data/install/pubsub_custom_param/lib/pubsub_custom_param/subscriber_class" to ""\n'}
+[24.942898] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/launch\n'}
+[24.943135] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_launch.py\n'}
+[24.943288] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_includer_launch.py\n'}
+[24.943516] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_paramfile_launch.py\n'}
+[24.943706] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_argument_launch.py\n'}
+[24.943968] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_param_launch.py\n'}
+[24.944238] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_remap_launch.py\n'}
+[24.944503] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/config\n'}
+[24.945150] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/config/params.yaml\n'}
+[24.945707] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/ament_index/resource_index/package_run_dependencies/pubsub_custom_param\n'}
+[24.946093] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/ament_index/resource_index/parent_prefix_path/pubsub_custom_param\n'}
+[24.946337] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/environment/ament_prefix_path.sh\n'}
+[24.946601] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/environment/ament_prefix_path.dsv\n'}
+[24.946836] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/environment/path.sh\n'}
+[24.947020] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/environment/path.dsv\n'}
+[24.947194] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/local_setup.bash\n'}
+[24.947363] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/local_setup.sh\n'}
+[24.947582] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/local_setup.zsh\n'}
+[24.947784] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/local_setup.dsv\n'}
+[24.947952] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/package.dsv\n'}
+[24.948128] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/ament_index/resource_index/packages/pubsub_custom_param\n'}
+[24.948322] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.948498] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/cmake/pubsub_custom_paramConfig.cmake\n'}
+[24.948751] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/cmake/pubsub_custom_paramConfig-version.cmake\n'}
+[24.948947] (pubsub_custom_param) StdoutLine: {'line': b'-- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/package.xml\n'}
+[24.952982] (pubsub_custom_param) CommandEnded: {'returncode': 0}
+[24.978795] (pubsub_custom_param) JobEnded: {'identifier': 'pubsub_custom_param', 'rc': 0}
+[24.979576] (-) EventReactorShutdown: {}

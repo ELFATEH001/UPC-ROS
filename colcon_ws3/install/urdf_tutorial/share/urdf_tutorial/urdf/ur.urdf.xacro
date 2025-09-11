@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ur3_plane_assembly">
+
+    <!-- Include the UR3 robot -->
+    <xacro:include filename="$(find ur_description)/urdf/ur.urdf.xacro"/>
+    <!-- <xacro:ur_robot name="ur3_robot" ur_type="ur3" /> -->
+
+
+</robot>

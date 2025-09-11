@@ -1,0 +1,241 @@
+[0.018s] Invoking command in '/home/aimane/data/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aimane/data/colcon_ws2/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/aimane/data/install/custom_interfaces
+[0.124s] -- The C compiler identification is GNU 11.4.0
+[0.232s] -- The CXX compiler identification is GNU 11.4.0
+[0.240s] -- Detecting C compiler ABI info
+[0.337s] -- Detecting C compiler ABI info - done
+[0.357s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.357s] -- Detecting C compile features
+[0.358s] -- Detecting C compile features - done
+[0.363s] -- Detecting CXX compiler ABI info
+[0.498s] -- Detecting CXX compiler ABI info - done
+[0.520s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.523s] -- Detecting CXX compile features
+[0.523s] -- Detecting CXX compile features - done
+[0.528s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.799s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.967s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.068s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.079s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.100s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.128s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.272s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.277s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.447s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.491s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.555s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.571s] -- Looking for pthread.h
+[1.677s] -- Looking for pthread.h - found
+[1.678s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.779s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.782s] -- Found Threads: TRUE  
+[1.927s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.966s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.510s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.680s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.719s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.720s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.767s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.768s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.768s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.768s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.806s] -- Found PythonExtra: .so  
+[3.928s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.960s] -- Added test 'lint_cmake' to check CMake code style
+[3.962s] -- Added test 'xmllint' to check XML markup files
+[3.969s] -- Configuring done
+[4.030s] -- Generating done
+[4.065s] -- Build files have been written to: /home/aimane/data/build/custom_interfaces
+[4.093s] Invoked command in '/home/aimane/data/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aimane/data/colcon_ws2/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/aimane/data/install/custom_interfaces
+[4.094s] Invoking command in '/home/aimane/data/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/data/build/custom_interfaces -- -j3 -l3
+[4.150s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.183s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.225s] [  6%] Built target ament_cmake_python_copy_custom_interfaces
+[4.731s] running egg_info
+[4.732s] creating custom_interfaces.egg-info
+[4.732s] writing custom_interfaces.egg-info/PKG-INFO
+[4.733s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[4.733s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[4.733s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[4.738s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[4.739s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[4.765s] [  6%] Built target custom_interfaces__cpp
+[4.785s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.785s] [  9%] Built target ament_cmake_python_build_custom_interfaces_egg
+[4.799s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.805s] [ 16%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/my_message__functions.c.o[0m
+[4.879s] [ 19%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[4.935s] [ 19%] Built target custom_interfaces__rosidl_generator_c
+[4.950s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.256s] [ 25%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/my_message__type_support.cpp.o[0m
+[5.329s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/my_message__type_support.cpp.o[0m
+[5.445s] [ 32%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/my_message__type_support.cpp.o[0m
+[5.709s] [ 35%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[5.835s] [ 35%] Built target custom_interfaces__rosidl_typesupport_cpp
+[5.862s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.187s] [ 41%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.260s] [ 45%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.358s] [ 45%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.386s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.465s] [ 48%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[6.496s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.721s] [ 54%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/my_message__type_support_c.cpp.o[0m
+[7.103s] [ 58%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/my_message__type_support.c.o[0m
+[7.121s] [ 61%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/my_message__type_support.cpp.o[0m
+[7.166s] [ 64%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[7.218s] [ 67%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.274s] [ 67%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[7.291s] [ 67%] Built target custom_interfaces__rosidl_typesupport_c
+[7.499s] [ 70%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.613s] [ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[7.638s] [ 70%] Built target custom_interfaces
+[7.666s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.272s] [ 74%] Built target custom_interfaces__py
+[8.300s] [ 77%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_my_message_s.c.o[0m
+[8.455s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[8.514s] [ 80%] Built target custom_interfaces__rosidl_generator_py
+[8.542s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.542s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.544s] [ 90%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[8.697s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.703s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.706s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.762s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[8.768s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[8.770s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[8.788s] Invoked command in '/home/aimane/data/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/data/build/custom_interfaces -- -j3 -l3
+[8.799s] Invoking command in '/home/aimane/data/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aimane/data/build/custom_interfaces
+[8.811s] -- Install configuration: ""
+[8.811s] -- Installing: /home/aimane/data/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[8.811s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.811s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.812s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/my_message.h
+[8.812s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.812s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[8.812s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__functions.h
+[8.812s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__functions.c
+[8.812s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.h
+[8.812s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__struct.h
+[8.812s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[8.813s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[8.813s] -- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[8.814s] -- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[8.814s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.814s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.814s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.814s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[8.814s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_fastrtps_c.h
+[8.815s] -- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.815s] -- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.817s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.817s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.817s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/my_message.hpp
+[8.817s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.817s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[8.817s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__traits.hpp
+[8.820s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.hpp
+[8.820s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__struct.hpp
+[8.820s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__builder.hpp
+[8.820s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.820s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.820s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.820s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[8.821s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_fastrtps_cpp.hpp
+[8.821s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps
+[8.821s] -- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.821s] -- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.821s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.821s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.821s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.821s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[8.822s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_introspection_c.h
+[8.822s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.c
+[8.822s] -- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[8.822s] -- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.822s] -- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[8.823s] -- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[8.823s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.823s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.823s] -- Up-to-date: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[8.823s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.cpp
+[8.823s] -- Installing: /home/aimane/data/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_introspection_cpp.hpp
+[8.823s] -- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.823s] -- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.824s] -- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[8.824s] -- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.824s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[8.824s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[8.824s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[8.824s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.824s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.824s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[8.824s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[8.824s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[8.825s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[8.825s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.825s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.825s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.825s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.825s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.825s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg
+[8.825s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_my_message_s.c
+[8.825s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_my_message.py
+[8.826s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py
+[8.826s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[8.826s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[8.874s] Listing '/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[8.874s] Compiling '/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[8.874s] Listing '/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...
+[8.874s] Compiling '/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...
+[8.874s] Compiling '/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_my_message.py'...
+[8.881s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.881s] -- Set runtime path of "/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.882s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.882s] -- Set runtime path of "/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.882s] -- Installing: /home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.883s] -- Set runtime path of "/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.883s] -- Installing: /home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[8.884s] -- Set runtime path of "/home/aimane/data/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[8.884s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/msg/MyMessage.idl
+[8.884s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/msg/MyMessage.msg
+[8.884s] -- Installing: /home/aimane/data/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[8.885s] -- Installing: /home/aimane/data/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[8.885s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[8.885s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[8.886s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[8.886s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[8.886s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[8.886s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[8.886s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[8.886s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[8.886s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/package.dsv
+[8.887s] -- Installing: /home/aimane/data/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[8.887s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[8.887s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.887s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.887s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.888s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[8.888s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.888s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.888s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.888s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.888s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[8.888s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.889s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.889s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.889s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[8.889s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.890s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[8.891s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.891s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.891s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.891s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.891s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.892s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.892s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.892s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.892s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[8.892s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[8.892s] -- Installing: /home/aimane/data/install/custom_interfaces/share/custom_interfaces/package.xml
+[8.895s] Invoked command in '/home/aimane/data/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aimane/data/build/custom_interfaces

@@ -1,0 +1,6 @@
+Invoking command in '/home/aimane/data/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aimane/data/colcon_ws2/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/aimane/data/install/custom_interfaces
+Invoked command in '/home/aimane/data/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aimane/data/colcon_ws2/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/aimane/data/install/custom_interfaces
+Invoking command in '/home/aimane/data/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/data/build/custom_interfaces -- -j3 -l3
+Invoked command in '/home/aimane/data/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/data/build/custom_interfaces -- -j3 -l3
+Invoking command in '/home/aimane/data/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aimane/data/build/custom_interfaces
+Invoked command in '/home/aimane/data/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aimane/data/build/custom_interfaces

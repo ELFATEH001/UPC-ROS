@@ -1,0 +1,89 @@
+[0.016s] Invoking command in '/home/aimane/data/build/pubsub_custom_param': AMENT_PREFIX_PATH=/home/aimane/data/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/data/install/custom_interfaces:/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/data/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aimane/data/colcon_ws3/src/pubsub_custom_param -DCMAKE_INSTALL_PREFIX=/home/aimane/data/install/pubsub_custom_param
+[0.135s] -- The C compiler identification is GNU 11.4.0
+[0.236s] -- The CXX compiler identification is GNU 11.4.0
+[0.251s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.364s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.365s] -- Detecting C compile features
+[0.366s] -- Detecting C compile features - done
+[0.375s] -- Detecting CXX compiler ABI info
+[0.509s] -- Detecting CXX compiler ABI info - done
+[0.528s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.531s] -- Detecting CXX compile features
+[0.531s] -- Detecting CXX compile features - done
+[0.534s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.798s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.953s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.034s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.045s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.075s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.103s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.227s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.232s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.367s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.415s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.481s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.496s] -- Looking for pthread.h
+[1.605s] -- Looking for pthread.h - found
+[1.605s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.708s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.709s] -- Found Threads: TRUE  
+[1.834s] -- Found custom_interfaces: 0.0.0 (/home/aimane/data/install/custom_interfaces/share/custom_interfaces/cmake)
+[1.921s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.055s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.057s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.057s] -- Configured cppcheck include dirs: 
+[2.057s] -- Configured cppcheck exclude dirs and/or files: 
+[2.060s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.061s] -- Configured cpplint exclude dirs and/or files: 
+[2.061s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.061s] -- Added test 'lint_cmake' to check CMake code style
+[2.062s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.064s] -- Added test 'uncrustify' to check C / C++ code style
+[2.064s] -- Configured uncrustify additional arguments: 
+[2.065s] -- Added test 'xmllint' to check XML markup files
+[2.070s] -- Configuring done
+[2.090s] -- Generating done
+[2.101s] -- Build files have been written to: /home/aimane/data/build/pubsub_custom_param
+[2.116s] Invoked command in '/home/aimane/data/build/pubsub_custom_param' returned '0': AMENT_PREFIX_PATH=/home/aimane/data/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/data/install/custom_interfaces:/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/data/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aimane/data/colcon_ws3/src/pubsub_custom_param -DCMAKE_INSTALL_PREFIX=/home/aimane/data/install/pubsub_custom_param
+[2.119s] Invoking command in '/home/aimane/data/build/pubsub_custom_param': AMENT_PREFIX_PATH=/home/aimane/data/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/data/install/custom_interfaces:/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/data/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aimane/data/build/pubsub_custom_param -- -j3 -l3
+[2.190s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_class.dir/src/publisher_class.cpp.o[0m
+[2.198s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_class.dir/src/subscriber_class.cpp.o[0m
+[9.238s] [ 75%] [32m[1mLinking CXX executable publisher_class[0m
+[9.585s] [ 75%] Built target publisher_class
+[15.364s] [100%] [32m[1mLinking CXX executable subscriber_class[0m
+[15.964s] [100%] Built target subscriber_class
+[15.987s] Invoked command in '/home/aimane/data/build/pubsub_custom_param' returned '0': AMENT_PREFIX_PATH=/home/aimane/data/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/data/install/custom_interfaces:/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/data/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aimane/data/build/pubsub_custom_param -- -j3 -l3
+[15.989s] Invoking command in '/home/aimane/data/build/pubsub_custom_param': AMENT_PREFIX_PATH=/home/aimane/data/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/data/install/custom_interfaces:/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/data/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aimane/data/build/pubsub_custom_param
+[16.000s] -- Install configuration: ""
+[16.000s] -- Installing: /home/aimane/data/install/pubsub_custom_param/lib/pubsub_custom_param/publisher_class
+[16.000s] -- Set runtime path of "/home/aimane/data/install/pubsub_custom_param/lib/pubsub_custom_param/publisher_class" to ""
+[16.001s] -- Installing: /home/aimane/data/install/pubsub_custom_param/lib/pubsub_custom_param/subscriber_class
+[16.007s] -- Set runtime path of "/home/aimane/data/install/pubsub_custom_param/lib/pubsub_custom_param/subscriber_class" to ""
+[16.008s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/launch
+[16.008s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_launch.py
+[16.008s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_includer_launch.py
+[16.008s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_paramfile_launch.py
+[16.009s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_argument_launch.py
+[16.009s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_param_launch.py
+[16.009s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/launch/pubsub_remap_launch.py
+[16.009s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/config
+[16.010s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/config/params.yaml
+[16.011s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/ament_index/resource_index/package_run_dependencies/pubsub_custom_param
+[16.011s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/ament_index/resource_index/parent_prefix_path/pubsub_custom_param
+[16.011s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/environment/ament_prefix_path.sh
+[16.011s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/environment/ament_prefix_path.dsv
+[16.012s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/environment/path.sh
+[16.012s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/environment/path.dsv
+[16.012s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/local_setup.bash
+[16.012s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/local_setup.sh
+[16.012s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/local_setup.zsh
+[16.013s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/local_setup.dsv
+[16.013s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/package.dsv
+[16.013s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/ament_index/resource_index/packages/pubsub_custom_param
+[16.013s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.013s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/cmake/pubsub_custom_paramConfig.cmake
+[16.014s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/cmake/pubsub_custom_paramConfig-version.cmake
+[16.014s] -- Installing: /home/aimane/data/install/pubsub_custom_param/share/pubsub_custom_param/package.xml
+[16.018s] Invoked command in '/home/aimane/data/build/pubsub_custom_param' returned '0': AMENT_PREFIX_PATH=/home/aimane/data/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aimane/data/install/custom_interfaces:/home/aimane/data/colcon_ws3/install/pubsub_custom_param:/home/aimane/data/colcon_ws3/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aimane/data/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aimane/data/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aimane/data/build/pubsub_custom_param

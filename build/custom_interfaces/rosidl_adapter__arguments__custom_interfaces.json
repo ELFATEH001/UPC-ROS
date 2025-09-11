@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/aimane/data/colcon_ws2/src/custom_interfaces:msg/MyMessage.msg"
+  ]
+}

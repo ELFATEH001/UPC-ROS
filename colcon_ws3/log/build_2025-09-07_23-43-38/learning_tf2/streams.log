@@ -1,0 +1,88 @@
+[0.017s] Invoking command in '/home/aimane/data/colcon_ws3/build/learning_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aimane/data/colcon_ws3/src/learning_tf2 -DCMAKE_INSTALL_PREFIX=/home/aimane/data/colcon_ws3/install/learning_tf2
+[0.097s] -- The C compiler identification is GNU 11.4.0
+[0.196s] -- The CXX compiler identification is GNU 11.4.0
+[0.207s] -- Detecting C compiler ABI info
+[0.297s] -- Detecting C compiler ABI info - done
+[0.317s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.317s] -- Detecting C compile features
+[0.318s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.440s] -- Detecting CXX compiler ABI info - done
+[0.459s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.460s] -- Detecting CXX compile features
+[0.461s] -- Detecting CXX compile features - done
+[0.466s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.690s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.828s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.907s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.920s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.934s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.960s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.993s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.084s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.088s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.218s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.264s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.328s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.342s] -- Looking for pthread.h
+[1.440s] -- Looking for pthread.h - found
+[1.440s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.548s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.549s] -- Found Threads: TRUE  
+[1.677s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.712s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[1.729s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.948s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.993s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.119s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.121s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.122s] -- Configured cppcheck include dirs: 
+[2.122s] -- Configured cppcheck exclude dirs and/or files: 
+[2.123s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.123s] -- Configured cpplint exclude dirs and/or files: 
+[2.124s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.125s] -- Added test 'lint_cmake' to check CMake code style
+[2.126s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.128s] -- Added test 'uncrustify' to check C / C++ code style
+[2.128s] -- Configured uncrustify additional arguments: 
+[2.129s] -- Added test 'xmllint' to check XML markup files
+[2.131s] -- Configuring done
+[2.159s] -- Generating done
+[2.171s] -- Build files have been written to: /home/aimane/data/colcon_ws3/build/learning_tf2
+[2.186s] Invoked command in '/home/aimane/data/colcon_ws3/build/learning_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aimane/data/colcon_ws3/src/learning_tf2 -DCMAKE_INSTALL_PREFIX=/home/aimane/data/colcon_ws3/install/learning_tf2
+[2.189s] Invoking command in '/home/aimane/data/colcon_ws3/build/learning_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/data/colcon_ws3/build/learning_tf2 -- -j3 -l3
+[2.257s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o[0m
+[2.257s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener_simple.dir/src/turtle_tf2_listener_simple.cpp.o[0m
+[9.123s] [ 75%] [32m[1mLinking CXX executable turtle_tf2_listener_simple[0m
+[9.541s] [ 75%] Built target turtle_tf2_listener_simple
+[14.741s] [100%] [32m[1mLinking CXX executable turtle_tf2_broadcaster[0m
+[15.402s] [100%] Built target turtle_tf2_broadcaster
+[15.419s] Invoked command in '/home/aimane/data/colcon_ws3/build/learning_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aimane/data/colcon_ws3/build/learning_tf2 -- -j3 -l3
+[15.431s] Invoking command in '/home/aimane/data/colcon_ws3/build/learning_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aimane/data/colcon_ws3/build/learning_tf2
+[15.440s] -- Install configuration: ""
+[15.440s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/lib/learning_tf2/turtle_tf2_broadcaster
+[15.444s] -- Set runtime path of "/home/aimane/data/colcon_ws3/install/learning_tf2/lib/learning_tf2/turtle_tf2_broadcaster" to ""
+[15.444s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/lib/learning_tf2/turtle_tf2_listener_simple
+[15.446s] -- Set runtime path of "/home/aimane/data/colcon_ws3/install/learning_tf2/lib/learning_tf2/turtle_tf2_listener_simple" to ""
+[15.446s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/launch
+[15.446s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/launch/turtle_tf2_demo2.launch.py
+[15.446s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/launch/tf2_broadcaster.launch.py
+[15.446s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/rviz
+[15.447s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/rviz/turtlesim_vis.rviz
+[15.447s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/ament_index/resource_index/package_run_dependencies/learning_tf2
+[15.447s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/ament_index/resource_index/parent_prefix_path/learning_tf2
+[15.447s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/environment/ament_prefix_path.sh
+[15.447s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/environment/ament_prefix_path.dsv
+[15.447s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/environment/path.sh
+[15.448s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/environment/path.dsv
+[15.448s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/local_setup.bash
+[15.448s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/local_setup.sh
+[15.448s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/local_setup.zsh
+[15.449s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/local_setup.dsv
+[15.449s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/package.dsv
+[15.449s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/ament_index/resource_index/packages/learning_tf2
+[15.449s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.449s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/cmake/learning_tf2Config.cmake
+[15.449s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/cmake/learning_tf2Config-version.cmake
+[15.449s] -- Installing: /home/aimane/data/colcon_ws3/install/learning_tf2/share/learning_tf2/package.xml
+[15.452s] Invoked command in '/home/aimane/data/colcon_ws3/build/learning_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aimane/data/colcon_ws3/build/learning_tf2

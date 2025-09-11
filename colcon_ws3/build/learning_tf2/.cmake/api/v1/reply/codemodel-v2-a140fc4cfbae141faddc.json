@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b8dde6b8a84b134b94cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "learning_tf2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "learning_tf2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learning_tf2_uninstall-9b280f4d5f3c3b3617d0.json",
+					"name" : "learning_tf2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_tf2_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_tf2_broadcaster-5d62d58fb1f7bfb6be83.json",
+					"name" : "turtle_tf2_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_tf2_listener_simple::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_tf2_listener_simple-7d667f9fa0ed38a5cf22.json",
+					"name" : "turtle_tf2_listener_simple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6bd7575dbf1afb9b3e91.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aimane/data/colcon_ws3/build/learning_tf2",
+		"source" : "/home/aimane/data/colcon_ws3/src/learning_tf2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
